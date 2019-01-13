@@ -1,0 +1,38 @@
+.header {
+  background-color: #fff;
+  height: 93px;
+    
+    
+}
+
+.logo-menu {
+    width: 147px;
+    padding-top: 20px;
+}
+
+
+
+.main-menu {
+	font-family: Myriad Pro;
+    display: inline-block;
+font-size: 13.5px;
+
+    padding-top: 40px;
+}
+
+.menu-selection {
+           margin-right: 41px;
+    text-transform: uppercase;
+color: #868686;
+
+}
+
+
+.active  {
+background-color: #e76924;
+  padding: 12px 22px 8px 22px;
+    border-radius: 2px;
+    color: #fff;
+}
+
+
