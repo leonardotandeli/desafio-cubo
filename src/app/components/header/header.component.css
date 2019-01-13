@@ -1,8 +1,6 @@
 .header {
-  background-color: #fff;
-  height: 93px;
-    
-    
+    background-color: #fff;
+    height: 93px;
 }
 
 .logo-menu {
@@ -10,29 +8,38 @@
     padding-top: 20px;
 }
 
-
-
 .main-menu {
-	font-family: Myriad Pro;
+    font-family: Myriad Pro;
     display: inline-block;
-font-size: 13.5px;
-
+    font-size: 13.5px;
     padding-top: 40px;
 }
 
 .menu-selection {
-           margin-right: 41px;
+    margin-right: 41px;
     text-transform: uppercase;
-color: #868686;
+    color: #868686;
 
 }
 
+.menu-selection:hover {
+    text-decoration: none;
+    transition: .5s;
+    color: #000;
+}
 
-.active  {
-background-color: #e76924;
-  padding: 12px 22px 8px 22px;
+.active {
+    background-color: #e76924;
+    padding: 12px 22px 8px 22px;
     border-radius: 2px;
     color: #fff;
 }
 
+.active:hover {
+    background-color: #f68f57;
+    padding: 12px 22px 8px 22px;
+    border-radius: 2px;
+    color: #fff;
+    transition: .5s background;
 
+}
