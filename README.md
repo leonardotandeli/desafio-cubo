@@ -1,10 +1,7 @@
-<p align="center">
-  <img src="https://cubo.network/assets/images/cubo.svg" width="400">
-</p>
+# Desafio FrontEnd Cubo
 
-# < front >Developer</ end > ao Cubo
-
-Objetivo deste desafio é avaliarmos o seu domínio em front-end, ou seja, sua organização, estilo e boas práticas com o código, conhecimento dos frameworks e tecnologias utilizadas.
+O objetivo deste desafio é apenas para fins de aprendizagem, não tenho interesse em fazer parte do processo seletivo...
+------------------------------------------------------------------------------------------------------------------
 
 ## Regras
 
