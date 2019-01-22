@@ -1,50 +1,119 @@
 .header {
-    background-color: #fff;
-    height: 93px;
+  background-color: #fff;
+  height: 94px;
 }
 
 .logo-menu {
-    width: 120px;
-    padding-top: 10px;
+  width: 120px;
+  padding-top: 10px;
 }
+
+/* The following code is for desktop and other devices that have more than 992px of width. */
+
+@media only screen and (min-width: 992px) {
+
+  .nav-link {
+    margin-right: 5px;
+    margin-bottom: -5px;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: Myriad Pro;
+    font-size: 13.5px;
+  }
+
+  .nav-link.active-link {
+    color: #fff;
+    background-color: #e76924;
+    border-radius: 3px;
+    padding: 10px 21px 7px 21px;
+  }
+
+  .nav-link.active-link:hover {
+    background-color: #f68f57;
+    border-radius: 3px;
+    color: #fff;
+    transition: .5s background;
+    padding: 10px 21px 7px 21px;
+  }
+
+}
+
+/* The following code is for mobile and other devices that have less than 992px of width.*/
+
+@media screen and (max-width: 992px) {
+  .navbar-light .navbar-nav .nav-link {
+    color: #868686;
+    
+  }
+
+  .navbar-light .navbar-nav .active-link {
+    color: #fff;
+    
+  }
+
+  .nav-link {
+      
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+    font-family: Myriad Pro;
+    font-size: 15.5px;
+    margin-top: 10px;
+    border-radius: 5px;
+    background-color: #FBFBFB;
+
+  }
+
+  .nav-link:hover {
+   
+    background-color: #f6f6f6;
+
+  }
+
+  .active-link {
+    color: #fff;
+    background-color: #e76924;
+
+  }
+
+  .active-link:hover {
+    color: #fff;
+    background-color: #f68f57;
+  }
+
+}
+
+
+
+
+
+
+
+  
+/* 
+
+// The following code is not used anymore.
+// The CSS Has been rewritted to better fit the responsivity
 
 .main-menu {
     font-family: Myriad Pro;
-    display: inline-block;
     font-size: 13.5px;
     padding-top: 17px;
     padding-bottom: 5px;
 }
 
 .menu-selection {
-    margin-right: 41px;
-    text-transform: uppercase;
-    color: #868686;
 
 }
 
 .menu-selection:hover {
     text-decoration: none;
     transition: .5s;
-    color: #000;
-}
-
-.active {
-    background-color: #e76924;
-    padding: 12px 22px 8px 22px;
-    border-radius: 2px;
     color: #fff;
 }
+*/
 
-.active:hover {
-    background-color: #f68f57;
-    padding: 12px 22px 8px 22px;
-    border-radius: 2px;
-    color: #fff;
-    transition: .5s background;
-
-}
-
+/*
 .hambuger-menu {
     position:relative;
     margin-left: 10px;
@@ -53,6 +122,38 @@
 @media screen and (max-width: 600px) {
 .main-menu {
     font-size: 12.5px;
-}
 
 }
+  .menu-selection {
+    background-color: #e76924;
+margin-bottom: 3px;
+        margin-right: 0px;
+        text-transform: uppercase;
+        color: #868686;
+    
+
+}
+.active {
+    background-color: #e76924;
+    border-radius: 2px;
+    color: #fff;
+    width: 75px;
+    padding-left: 100px;
+    padding-top: 3px;
+}
+
+.nav-link {
+color: #fff;
+
+}
+.active:hover {
+    background-color: #f68f57;
+  border-radius: 2px;
+    color: #fff;
+    transition: .5s background;
+    width: 75px;
+    padding-left: 12px;
+    padding-top: 3px;
+}
+}
+*/
