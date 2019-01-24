@@ -1,3 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
 @import '~bootstrap/dist/css/bootstrap.min.css';
 @import '~font-awesome/css/font-awesome.css';
+
+body {
+font-family: Myriad Pro;
+  font-size: 1em;
+  line-height: 1.6em;
+  color: #394b50;
+  font-weight: 400;
+
+}
