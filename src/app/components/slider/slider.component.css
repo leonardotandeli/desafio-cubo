@@ -1,13 +1,278 @@
-.slider-text {
-    position: relative;
+/* The following code is for desktop and other devices that have more than 992px of width. */
 
-    height: 197px;
-    margin-top: 80px;
+@media only screen and (min-width: 992px) {
+    
+    /* Slider 1 */
+    .slider-1 {
+        position: relative;
+        width: 426px;
+        font-family: Myriad Pro;
+        margin-top: 100px;
+        padding: 20px 30px 30px 30px;
+        opacity: 0.9;
+        background-color: #cb733d;
+        color: #fff;
+    }
+    .slider-1 h2 {
+        text-transform: uppercase;
+    }
+    
+        /* Slider 2 */
+    .slider-2 {
+        font-family: Myriad Pro;
+        position: relative;
+        width: 100%;
+        font-size: 20px;
+        margin-top: 100px;
+        padding: 20px 30px 30px 30px;
+        opacity: 0.9;
+        color: #104286;
+    }
+    .slider-2 h2 {
+        text-transform: uppercase;
+    }
+    .btn-leia {
+        text-transform: uppercase;
+        font-family: Myriad Pro;
+        font-weight: bold;
+        width: 140px;
+        padding: 10px;
+        color: #104286;
+        border-color: #104286;
+    }
+    .btn-leia:hover {
+        font-family: Myriad Pro;
+        font-weight: bold;
+        background-color: #104286;
+        color: #fff;
+    }
+    
+         /* Slider 3 */
+    
+    .slider-3 {
+        font-family: Myriad Pro;
+        font-weight: bold;
+        text-transform: uppercase;
+        position: relative;
+        margin-top: 100px;
+        opacity: 0.9;
+        color: #fff;
+    }
+    .slider-3 h2 {
+        background-color: #104286;
+        margin-top: 10px;
+        padding: 5px;
+        width: 270px;
+        font-size: 30px;
+    }
+    .slider-3 h3 {
+        font-size: 30px;
+        background-color: #104286;
+        width: 155px;
+        margin-top: 10px;
+        padding: 5px;
+    }
+    
+            /* Carousel */
+    .carousel-item {
+        height: 32rem;
+        padding-top: 60px;
+    }
+    .carousel-item > img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        min-width: 100%;
+        height: 32rem;
+    }
+    .slider-img {
+        display: flex;
+        flex-shrink: 0;
+    }
+    .carousel-inner.carousel-indicators {
+        margin-top: 200px;
+    }
+    .carousel-circle {
+        border-radius: 50%;
+        display: inline-block;
+        height: 16px;
+        margin-left: 5px;
+        width: 16px;
+        border: 3px solid #868686;
+    }
+    .carousel-circle:hover {
+        border-radius: 50%;
+        display: inline-block;
+        height: 16px;
+        margin-left: 5px;
+        width: 16px;
+        border: 3px solid #e76924;
+    }
+    .carousel-circle.active {
+        border-radius: 50%;
+        display: inline-block;
+        height: 16px;
+        margin-left: 5px;
+        width: 16px;
+        border: 3px solid #e76924;
+    }
+    .carousel-indicators {
+        margin-top: 20px;
+        position: inherit;
+    }
+}
+
+/* The following code is for mobile and other devices that have less than 992px of width.*/
+
+@media screen and (max-width: 992px) {
+      /* Slider 1 */
+    .slider-1 {
+        position: relative;
+        width: 100%;
+        margin-top: 30px;
+        padding: 20px 30px 30px 30px;
+        opacity: 0.4;
+        background-color: #cb733d;
+        color: #fff;
+        -webkit-box-shadow: 0px 4px 43px -8px rgba(173, 173, 173, 1);
+        -moz-box-shadow: 0px 4px 43px -8px rgba(173, 173, 173, 1);
+        box-shadow: 0px 4px 43px -8px rgba(173, 173, 173, 1);
+    }
+    .slider-1 h2 {
+        text-transform: uppercase;
+    }
+      /* Slider 2 */
+    .slider-2 {
+        font-family: Myriad Pro;
+        position: relative;
+        width: 100%;
+        font-size: 15px;
+        margin-top: 40px;
+        padding: 20px 30px 30px 30px;
+        opacity: 0.9;
+        color: #104286;
+    }
+    .slider-2 h2 {
+        text-transform: uppercase;
+    }
+    .btn-leia {
+        text-transform: uppercase;
+        font-family: Myriad Pro;
+        font-weight: bold;
+        width: 140px;
+        padding: 10px;
+        color: #104286;
+        border-color: #104286;
+    }
+    .btn-leia:hover {
+        font-family: Myriad Pro;
+        font-weight: bold;
+        background-color: #104286;
+        color: #fff;
+    }
+      /* Slider 3 */
+    .slider-3 {
+        font-family: Myriad Pro;
+        font-weight: bold;
+        text-transform: uppercase;
+        position: relative;
+        margin-top: 40px;
+        opacity: 0.9;
+        color: #fff;
+    }
+    .slider-3 h2 {
+        background-color: #104286;
+        margin-top: 10px;
+        padding: 5px;
+        width: 270px;
+        font-size: 30px;
+    }
+    .slider-3 h3 {
+        font-size: 30px;
+        background-color: #104286;
+        width: 155px;
+        margin-top: 10px;
+        padding: 5px;
+    }
+    
+          /* Carousel */
+    .carousel-item {
+        height: 32rem;
+        padding-top: 60px;
+    }
+    .carousel-control-next,
+    .carousel-control-prev {
+        visibility: hidden;
+    }
+    .carousel-item > img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        min-width: 100%;
+        height: 32rem;
+        padding-top: -300px;
+    }
+    .carousel-inner .slider-img {
+        display: flex;
+        flex-shrink: 0;
+        -webkit-box-shadow: 0px 4px 43px -8px rgba(173, 173, 173, 1);
+        -moz-box-shadow: 0px 4px 43px -8px rgba(173, 173, 173, 1);
+        box-shadow: 0px 4px 43px -8px rgba(173, 173, 173, 1);
+        height: 80%;
+    }
+    .carousel-inner.carousel-indicators {
+        margin-top: 180px;
+    }
+    .carousel-circle {
+        border-radius: 50%;
+        display: inline-block;
+        height: 16px;
+        margin-top: -80px;
+        margin-left: 5px;
+        width: 16px;
+        border: 3px solid #868686;
+    }
+    .carousel-circle:hover {
+        border-radius: 50%;
+        display: inline-block;
+        height: 16px;
+        margin-left: 5px;
+        width: 16px;
+        border: 3px solid #e76924;
+    }
+    .carousel-circle.active {
+        border-radius: 50%;
+        display: inline-block;
+        height: 16px;
+        margin-left: 5px;
+        width: 16px;
+        border: 3px solid #e76924;
+    }
+    .carousel-indicators {
+        margin-top: 10px;
+        position: inherit;
+    }
+}
+
+
+
+
+
+
+/*
+
+// The following code is not used anymore.
+
+
+
+.slider-1 {
+    position: relative;
+    width: 426px;
+    margin-top: 100px;
     padding: 20px 30px 30px 30px;
     opacity: 0.9;
     background-color: #cb733d;
     color: #fff;
-
 }
 
 .carousel-item {
@@ -23,27 +288,45 @@
     height: 32rem;
 }
 
-
-    
 .slider-img {
     display: flex;
-      flex-shrink: 0;
-    
-  
-}
-    
-
-
-@media screen and (max-width: 500px) {
-  
-.slider-img {
-    display: flex;
-      flex-shrink: 0;
-    position:absolute;top:0;left:50%;margin-left:-180px;
-}
-    
-    
-    
-    
+    flex-shrink: 0;
 }
 
+.carousel-inner.carousel-indicators {
+    margin-top: 200px;
+}
+
+.carousel-circle {
+    border-radius: 50%;
+    display: inline-block;
+    height: 16px;
+    margin-left: 5px;
+    width: 16px;
+    border: 3px solid #868686;
+}
+
+.carousel-circle:hover {
+    border-radius: 50%;
+    display: inline-block;
+    height: 16px;
+    margin-left: 5px;
+    width: 16px;
+    border: 3px solid #e76924;
+}
+
+.carousel-circle.active {
+    border-radius: 50%;
+    display: inline-block;
+    height: 16px;
+    margin-left: 5px;
+    width: 16px;
+    border: 3px solid #e76924;
+}
+
+.carousel-indicators {
+    margin-top: 20px;
+    position: inherit;
+}
+
+*/
