@@ -1,72 +1,116 @@
-.image-about {
-    padding-right: 30px;
+/* The following code is for desktop and other devices that have more than 992px of width. */
 
-    height: 580px;
-}
 
-.img-about {
-
-    height: 580px;
-}
-
-.about-us {
-    margin-top: 70px;
-    background-color: #ffc40c;
-    
-}
-
-.about-heading{
-    color: #fff;
-padding-top: 90px;
-    text-transform: uppercase;
+    /* Section */
+    .bg-container {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        overflow: hidden;
+        margin: 0;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        margin-top: 40px;
+    }
+    .about-us {
+        background-color: #ffc40c;
+        padding: 110px 60px 200px 60px;
+        margin-top: 40px;
+    }
+    .about-heading {
+        color: #fff;
+        text-transform: uppercase;
         font-size: 30px;
-    
-}
+    }
+    .about-lead {
+        padding-top: 10px;
+        color: #fff;
+        font-size: 15px;
+        width: 690px;
+    }
+    .about-subtitle {
+        padding-left: 5px;
+        padding-top: 25px;
+        text-transform: uppercase;
+        color: #525252;
+        font-weight: bold;
+        font-size: 14px;
+    }
+    /* Circle 1 styles */
+    .circle1 {
+        position: relative;
+        text-align: center;
+        width: 150px;
+        height: 150px;
+        border-radius: 100%;
+        background-color: #404a58;
+        background-image: linear-gradient(521deg, transparent 50%, #fff 50%), linear-gradient(90deg, #fff 50%, transparent 50%);
+        margin-left: 30px;
+    }
+    .circle1 .circle-inner div {
+        position: relative;
+        top: 57px;
+        color: #404a58;
+    }
+    .circle1 .circle-text {
+        font-size: 30px;
+        line-height: 1em;
+    }
+    /* Circle 2 styles */
+    .circle2 {
+        position: relative;
+        text-align: center;
+        width: 150px;
+        height: 150px;
+        border-radius: 100%;
+        background-color: #404a58;
+        background-image: linear-gradient(2024deg, transparent 100%, #fff 50%), linear-gradient(1570deg, #fff 30%, transparent 0%);
+        margin-left: 30px;
+    }
+    .circle2 .circle-inner div {
+        position: relative;
+        top: 57px;
+        color: #404a58;
+    }
+    .circle2 .circle-text {
+        font-size: 30px;
+        line-height: 1em;
+    }
+    /* Circle 3 styles */
+    .circle3 {
+        position: relative;
+        text-align: center;
+        width: 150px;
+        height: 150px;
+        border-radius: 100%;
+        background-color: #404a58;
+        background-image: linear-gradient(1024deg, transparent 50%, #fff 50%), linear-gradient(90deg, #fff 50%, transparent 50%);
+        margin-left: 30px;
+    }
+    .circle3 .circle-inner div {
+        position: relative;
+        top: 57px;
+        color: #404a58;
+    }
+    .circle3 .circle-text {
+        font-size: 30px;
+        line-height: 1em;
+    }
+    /* Circle styles */
+    .circle-inner {
+        position: relative;
+        top: 5px;
+        left: 5px;
+        text-align: center;
+        width: 140px;
+        height: 140px;
+        border-radius: 100%;
+        background-color: #ffc40c;
+    }
+    .circle-padding {
+        padding-top: 50px;
 
-.about-lead {
-       color: #fff;
-    font-size: 14px;
-    width: 650px;
-}
-
-
-
-
-
-
-.info-cicle {
-
-    
-}
-
-
-
-
-.perCirc {
-    position: relative;
-    text-align: center;
-    width: 150px;
-    height: 150px;
-    border-radius: 100%;
-    background-color: #00cc00;
-    background-image: linear-gradient(91deg, transparent 50%, #ccc 50%), linear-gradient(90deg, #ccc 50%, transparent 50%);
-}
-.perCirc .perCircInner {
-    position: relative;
-    top: 10px;
-    left: 10px;
-    text-align: center;
-    width: 130px;
-    height: 130px;
-    border-radius: 100%;
-    background-color: #eee;
-}
-.perCirc .perCircInner div {
-    position: relative;
-    top: 22px;
-    color:#777;
-}
-.perCirc .perCircStat {
-    font-size: 30px;
-    line-height:1em;
-}
+    }
