@@ -1,19 +1,117 @@
-.marketing-img {
-margin-bottom: -80px;
-    margin-left: 155px;
+/* The following code is for desktop and other devices that have more than 992px of width. */
 
+@media only screen and (min-width: 992px) {
 
+    .icon-service {
+        display: flex;
+        padding-left: 85px;
+    }
+    .work-icon .padding-correction-head {
+        padding-top: 64px;
+    }
+    .work-icon .padding-correction-head3 {
+        padding-top: 56px;
+    }
+    .work-icon .padding-correction-head4 {
+        padding-top: 65px;
+    }
+    .marketing-img {
+        margin-bottom: -80px;
+        margin-left: 190px;
+    }
+    .rounded-circl {
+        height: 100%;
+    }
+    .work-icon {
+        width: 180px;
+    }
+    .work-head {
+        color: #394b50;
+        text-transform: uppercase;
+        font-size: 20px;
+        padding-left: 80px;
+        padding-top: 50px;
+    }
+    .work-p {
+        width: 250px;
+        font-size: 13px;
+        color: #7b7b7b;
+        padding-top: 5px;
+    }
 }
 
 
+/* The following code is for mobile and other devices that have less than 1200px of width.*/
 
-.rounded-circl {
-    
-    height: 100%;
+@media screen and (max-width: 1200px) {
+
+
+    .marketing-img {
+        display: none;
+    }
+
+}
+
+/* The following code is for mobile and other devices that have less than 992px of width.*/
+
+@media screen and (max-width: 992px) {
+
+    .padding-top-h {
+        padding-top: 60px;
+    }
+
+    .icon-service {
+        display: flex;
+        padding-top: 30px;
+        padding-left: 85px;
+    }
+    .work-icon .padding-correction-head {
+        padding-top: 64px;
+    }
+    .work-icon .padding-correction-head3 {
+        padding-top: 56px;
+    }
+    .work-icon .padding-correction-head4 {
+        padding-top: 65px;
+    }
+    .marketing-img {
+        display: none;
+    }
+    .rounded-circl {
+        height: 100%;
+    }
+    .work-icon {
+        width: 180px;
+    }
+    .work-head {
+        color: #394b50;
+        text-transform: uppercase;
+        font-size: 20px;
+        padding-left: 80px;
+        padding-top: 50px;
+    }
+    .work-p {
+        width: 250px;
+        font-size: 13px;
+        color: #7b7b7b;
+        padding-top: 5px;
+    }
+    .icon-pos {
+
+        padding-left: 48px;
+
+    }
 }
 
 
-.work-icon {
-    width: 180px;
-    
+/* The following code is for mobile and other devices that have less than 602px of width.*/
+
+@media screen and (max-width: 602px) {
+
+
+    .icon-pos {
+
+        padding-left: 46px;
+
+    }
 }
