@@ -38,6 +38,20 @@
         color: #7b7b7b;
         padding-top: 5px;
     }
+    
+    .btn-leia-mais {
+        border-radius: 0px;
+        background-color: #99c03c;
+    text-transform: uppercase;
+        font-weight: bold;
+        color: #fff;
+        
+    }
+    .padding-btn {
+        padding-top: 30px;
+        padding-bottom: 40px;
+        
+    }
 }
 
 
@@ -48,6 +62,21 @@
 
     .marketing-img {
         display: none;
+    }
+    
+        .btn-leia-mais {
+        border-radius: 0px;
+        background-color: #99c03c;
+    text-transform: uppercase;
+        font-weight: bold;
+        color: #fff;
+        
+    }
+    .padding-btn {
+        padding-top: 30px;
+        padding-bottom: 40px;
+        padding-right: 50px;
+        
     }
 
 }
