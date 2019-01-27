@@ -1,4 +1,131 @@
-.form-group {
-    display:inline;
-    
+/* The following code is for desktop and other devices that have more than 992px of width. */
+
+@media only screen and (min-width: 1201px) {
+
+
+    .form-home {
+        background-color: #00b8e2;
+        color: #fff;
+        padding: 50px;
+    }
+
+    .form-group {
+        display: inline;
+
+    }
+
+    .input-form {
+        margin-left: 75px;
+    }
+
+
+    .form-control {
+        width: 270px;
+        padding-top: 13px;
+    }
+
+    .input-form .form-control {
+
+        border-radius: 0px;
+
+    }
+
+    .inner-addon {
+        position: relative;
+    }
+
+    .inner-addon .input-icon {
+        position: absolute;
+        color: #8d8d8d;
+        padding: 10px;
+        pointer-events: none;
+    }
+
+
+    .left-addon input {
+        padding-left: 30px;
+    }
+    .right-addon input {
+        padding-right: 30px;
+    }
+
+
+    .btn-enviar {
+        padding: 5px;
+        width: 100px;
+        border-width: 2px;
+        border-radius: 1px;
+        border-color: #fff;
+        color: #fff;
+
+    }
+
+}
+
+
+@media only screen and (max-width: 1260px) {
+
+
+
+
+    .form-home {
+        background-color: #00b8e2;
+        color: #fff;
+        padding: 50px;
+    }
+
+    .form-group {
+        display: inline;
+
+    }
+
+    .input-form {
+        margin-left: 75px;
+    }
+
+
+    .form-control {
+        width: 200px;
+        padding-top: 13px;
+    }
+
+    .input-form .form-control {
+
+        border-radius: 0px;
+
+    }
+
+    .inner-addon {
+        position: relative;
+    }
+
+    .inner-addon .input-icon {
+        position: absolute;
+        color: #8d8d8d;
+        padding: 10px;
+        pointer-events: none;
+    }
+
+
+    .left-addon input {
+        padding-left: 30px;
+    }
+    .right-addon input {
+        padding-right: 30px;
+    }
+
+
+    .btn-enviar {
+        padding: 5px;
+        width: 100px;
+        border-width: 2px;
+        border-radius: 1px;
+        border-color: #fff;
+        color: #fff;
+
+    }
+
+
+
+
 }
