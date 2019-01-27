@@ -10,3 +10,38 @@ font-family: Myriad Pro;
   font-weight: 400;
 
 }
+/* The following code is for desktop and other devices that have more than 992px of width. */
+
+@media only screen and (min-width: 992px) {
+    
+.padding-60-30 {
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+.service-title {
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.service-subtitle {
+    font-size: 16px;
+}
+}
+
+/* The following code is for mobile and other devices that have less than 992px of width.*/
+
+@media screen and (max-width: 992px) {
+.padding-60-30 {
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+.service-title {
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.service-subtitle {
+    font-size: 16px;
+}
+}
+
+
+
