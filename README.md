@@ -1,6 +1,9 @@
 # Desafio FrontEnd Cubo
 
-O objetivo do desenvolvimento deste desafio é apenas para fins de aprendizagem, não tenho interesse em fazer parte do processo seletivo da vaga oferecida pelo Cubo...
+O objetivo do desenvolvimento deste desafio é apenas para fins de aprendizagem.
+
+O projeto não conta com dados obtidos via API, visto que os links dos dados se encontram indisponíveis. 
+
 ------------------------------------------------------------------------------------------------------------------
 
 ## Regras
