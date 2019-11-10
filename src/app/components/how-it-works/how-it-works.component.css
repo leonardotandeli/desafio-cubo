@@ -140,7 +140,14 @@
 
     .icon-pos {
 
-        padding-left: 46px;
+        margin-left: 46px;
 
     }
+
+    .padding-btn {
+
+        margin-right: 44px;
+    }
+
+
 }
